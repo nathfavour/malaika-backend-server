@@ -6,7 +6,7 @@ NB: BACKEND FOR MALAIKA CROWD-FUNDING does not include frontend files, so you ha
 ## HOW TO COMMUNICATE WITH THE API
 I suggest three ways to interact with the API:
 
-1. Ideally through a frontend, for a production-ready environment
+1. Ideally through a frontend, for a production-ready environment.
 
 2.  I provided four python testers for you to test the API in case you don't have a frontend. You can find these files in the "python-tester" folder.
 NB: Just run (for a file filename.py):
