@@ -1,4 +1,4 @@
 ### Variables
 
 ### Test Base API
-GET  http://localhost:5000 
+GET  https://malaika-backend-server.onrender.com
