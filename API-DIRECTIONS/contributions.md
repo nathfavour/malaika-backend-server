@@ -1,7 +1,4 @@
-## Example 1: Create a New Contribution
-Send a POST request to create a new contribution and update project information.
-
-bash
+Example 1: Create a New Contribution
 
 bash
 
@@ -10,12 +7,9 @@ curl -X POST -H "Content-Type: application/json" -d '{
   "projectTitle": "Project XYZ",
   "contributionAmount": 200,
   "user": "user456"
-}' http://localhost:3000/api/contributions
+}' https://malaika-backend-server.onrender.com/api/contributions
 
-## Example 2: Missing Contributor Address
-Send a POST request without providing a contributor address, triggering a validation error.
-
-bash
+Example 2: Missing Contributor Address
 
 bash
 
@@ -23,14 +17,13 @@ curl -X POST -H "Content-Type: application/json" -d '{
   "projectTitle": "Project XYZ",
   "contributionAmount": 200,
   "user": "user456"
-}' http://localhost:3000/api/contributions
+}' https://malaika-backend-server.onrender.com/api/contributions
+
 
 ## Example 3: Successful Contribution
 After successfully creating a contribution, you'll receive a response confirming the contribution and updated project information.
 
 Response:
-
-json
 
 json
 
