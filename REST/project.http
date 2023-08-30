@@ -1,5 +1,5 @@
 ### Create a new project
-POST http://localhost:5000/api/projects
+POST https://malaika-backend-server.onrender.com//api/projects
 content-type: application/json
 
 {
